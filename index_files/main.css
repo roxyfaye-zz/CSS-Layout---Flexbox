@@ -1,0 +1,191 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+img {
+  width: 100%;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+
+.body {
+  width: 1280px;
+}
+
+.nav-row {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.nav-item {
+  padding: 25px;
+  font-family: 'Josefin Sans', serif;
+}
+
+.page-header {
+  background-image: url('../img/header-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  padding-left: 320px;
+}
+
+.main-heading {
+  font-family: 'Josefin Sans', serif;
+  font-weight: bolder;
+  font-size: 120px;
+  height: 114px;
+  width: 384px;
+  text-align: center;
+  padding-top: 267px;
+  padding-left: 85px;
+}
+
+.sub-heading {
+  font-family: 'Dancing Script';
+  width: 728px;
+  height: 84px;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px 4px #333333;
+  padding-top: 70px;
+  margin-right: auto;
+}
+
+main {
+  display: flex;
+  background-color: #FEF9EC;
+  padding: 90px;
+}
+
+.blog-row {
+  height: 2214px;
+  width: 718px;
+}
+
+.item {
+  width: 537px;
+  height: 525px;
+  flex-shrink: 1;
+  background-color: #FFFFFF;
+  margin: 50px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.icon-wrapper {
+  text-align: center;
+	background: #EFEADF;
+	border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 40px;
+  left: 231px;
+}
+
+i {
+  filter: invert(100%);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 38px;
+}
+
+.entry-title {
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.primary-txt {
+  font-family: 'Noto Serif';
+}
+
+#dino {
+  content: url('../img/dino.jpg');
+  height: 252px;
+  width: 250px;
+  object-fit: cover;
+  display: block;
+  float: right;
+  padding-bottom: 20px;
+}
+
+#xx {
+  content: url('../img/xx.png');
+  height: 240px;
+  width: 250px;
+  object-fit: cover;
+  display: block;
+  float: right;
+  padding-bottom: 20px;
+}
+
+#yhact-img {
+  content: url('../img/yhact.jpg');
+  height: 240px;
+  width: 250px;
+  object-fit: cover;
+  display: block;
+  float: right;
+  padding-bottom: 20px;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEADF;
+}
+
+.auth-pic {
+  content: url('../img/author.jpeg');
+  border-radius: 190px;
+  height: 195px;
+  width: 176px;
+  object-fit: cover;
+  display: block;
+  align-items: center;
+}
